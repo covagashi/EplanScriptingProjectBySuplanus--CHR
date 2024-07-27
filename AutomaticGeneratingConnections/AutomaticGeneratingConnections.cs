@@ -1,7 +1,7 @@
 ﻿using Eplan.EplApi.ApplicationFramework;
 using Eplan.EplApi.Scripting;
 
-public class AutomaticGeneratingConnections
+ public class AutomaticGeneratingConnections
 {
     [DeclareEventHandler("onActionStart.String.PrnPrintDialogShow")]
     public void ehPrint()
